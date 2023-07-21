@@ -6,9 +6,9 @@
 
 int main(void)
 {
-	char c;
+	int c;
 
-	char d;
+	int d;
 
 	c = 'a';
 	d = 'A';
@@ -20,6 +20,7 @@ int main(void)
 	while
 		(d <= 'z') {
 			putchar(d);
+			d++;
 		}
 	putchar('\n');
 	return (0);
