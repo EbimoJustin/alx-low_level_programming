@@ -6,22 +6,18 @@
 
 int main(void)
 {
-	char c;
+	int num;
+	char alphabet;
 
-	int d;
-
-	c = 'a';
-	d = '0';
-	while
-		(d < 17) {
-			putchar(d + '0');
-			d++;
-		}
-	while
-		(c <= 'f') {
-			putchar(c);
-			c++;
-		}
+	for (num = 0; num <= 9; num++)
+	{
+		putchar((num % 10) + '0');
+	}
+	for (alphabet = 'a'; alphabet <= 'f'; alphabet++)
+	{
+		putchar(alphabet);
+	}
 	putchar('\n');
+
 	return (0);
 }
